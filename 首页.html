@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/首页.css" />
+		<style>
+			/*body{ 
+				min-width: 600px; 
+				width:expression(document.body.clientWidth < 600? "600px": "auto" ); 
+			}*/
+			@media (max-width: 768px) {
+				.wzxa1{
+					animation: name22 0.2s linear forwards;
+				}
+				@keyframes name22 {
+					100% {
+						padding: 1px;
+					}
+					
+				}
+				.navbar-header>a>.a{
+					animation: name 0.2s linear forwards;
+				}
+				
+				@keyframes name {
+					from{
+						width: 120px;
+						height: 120px;
+						left: 50px;
+					}
+					to{
+						width: 80px;
+						height: 80px;
+						left: 15px;
+					}
+				}
+				.m{
+					animation: name11 0.2s linear forwards;
+				}
+				@keyframes name11 {
+					100% {
+						margin-top: 0px;
+					}
+					
+				}
+				.dhwz1{
+					animation: name6 0.2s linear forwards;
+				}
+				@keyframes name6 {
+					100% {
+						margin-top: -5px;
+					}
+					
+				}
+				.dhwz{
+					animation: name1 0.2s linear forwards;
+				}
+				@keyframes name1 {
+					100% {
+						font-size: 4px;
+					}
+					
+				}
+				.disan>.yin>.more{
+					animation: d 0.2s linear forwards;
+					/*display: none;*/
+					
+				}
+				@keyframes d {
+					100% {
+						margin-top: 140px;
+					}
+					
+				}
+				.disan>.yin>.more>a{
+					padding: 10px;
+				}
+				.ddx>li{
+					border-bottom: 1px solid white;
+				}
+				.ddx>li a{
+					animation: nav1 0.2s linear forwards;
+				}
+				@keyframes nav1 {
+					100% {
+						background: #01395C;
+						color: white;
+						font-size: 17px;
+					}
+					
+				}
+				#lj>.ddx{
+					position: fixed;
+					top: 50px;
+					left: 0px;
+					background: #01395C;
+					width: 0px;
+					height: 400px;
+					animation: lj 1s forwards;
+				}
+				@keyframes lj{
+					from{width: 0px;
+					height: 400px;}
+					to{width: 110%;
+					height: 400px;}
+				}
+				
+			}
+			
+			
+			@media (min-width: 1200px) {
+				.navbar-header>a>.a {
+					animation: nam 0.2s linear forwards;
+				}
+				@keyframes nam {
+					from {
+						width: 80px;
+						height: 80px;
+						left: 15px;
+					}
+					to {
+						width: 120px;
+						height: 120px;
+						left: 50px;
+					}
+				}
+				
+			}
+			
+			.yi {
+				width: 100%;
+			}
+			
+			.yi>img {
+				width: 100%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar  navbar-fixed-top ">
+				<div class="navbar-header ">
+					<button class="navbar-toggle dian" data-toggle="collapse" data-target="#lj"> 
+						<span class="icon-bar" style="background: #666666;"></span>
+			            <span class="icon-bar"style="background: #666666;"></span>
+			            <span class="icon-bar"style="background: #666666;"></span>
+			            <span class="icon-bar"style="background: #666666;"></span>
+			           <!-- <span class="icon-prev"style="background: #666666;"></span>-->
+					</button>
+					<a href=""><img src="img/logo.jpg" class="a" style="position: fixed;" /></a>
+				</div>
+				<div class="collapse navbar-collapse col-md-8 col-md-offset-2" id="lj">
+					<ul class="nav navbar-nav ddx">
+						<li>
+							<a href="首页.html">home</a>
+						</li>
+						<li>
+							<a href="chanpinzhongxin.html">产品中心</a>
+						</li>
+						<li>
+							<a href="">创意搭配</a>
+						</li>
+						<li>
+							<a href="">品质服务</a>
+						</li>
+						<li>
+							<a href="">门店导航</a>
+						</li>
+						<li>
+							<a href="" class="dropdown-toggle" data-toggle="dropdown">加盟服务<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="">联系开发商</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="">品牌中心</a>
+						</li>
+						<li>
+							<a href="">新闻资讯</a>
+						</li>
+					</ul>
+				</div>
+				<div class="collapse navbar-collapse col-md-2 col-xs-4 cx">
+					<a href=""><span><img src="img/1903.png"/></span> 中国家具正品查询 <span class="glyphicon glyphicon-triangle-right a"></span></a>
+				</div>
+			</nav>
+		</header>
+		<!--		轮播图开始-->
+		<div class="carousel slide" id="a" style="margin-top: 80px;">
+			<!--下标-->
+			<!-- 轮播（Carousel）指标       indicators：点标记 -->
+			<ol class="carousel-indicators">
+				<!--data-target="#myCarousel"：当前这个li控制的哪个轮播图-->
+				<!--data-slide-to="0"：当前li指向的是哪一张索引的图片-->
+				<li data-target="#a" data-slide-to="0" class="active"></li>
+				<li data-target="#a" data-slide-to="1"></li>
+				<li data-target="#a" data-slide-to="2"></li>
+				<li data-target="#a" data-slide-to="3"></li>
+				<li data-target="#a" data-slide-to="4"></li>
+				<li data-target="#a" data-slide-to="5"></li>
+
+			</ol>
+			<!--轮播图-->
+			<div class="carousel-inner">
+				<!--每一个item项就是一个轮播的图片内容-->
+				<div class="item active">
+					<a href="" class="yi">
+						<img src="img/home/20180901155140.jpg" class="img-responsive" alt="First slide" />
+					</a>
+					<!--图片的说明-->
+					<div class="carousel-caption">
+						第一张
+					</div>
+				</div>
+				<!--第二个图片-->
+				<div class="item">
+					<a href="" class="yi">
+						<img src="img/home/20180901155154.jpg" class="img-responsive" alt="First slide" />
+					</a>
+					<!--图片的说明-->
+					<div class="carousel-caption">
+						第二张
+					</div>
+				</div>
+				<!--第二个图片-->
+				<div class="item">
+					<a href="" class="yi">
+						<img src="img/home/20180901155210.jpg" class="img-responsive" alt="First slide" />
+					</a>
+					<!--图片的说明-->
+					<div class="carousel-caption">
+						第三张
+					</div>
+				</div>
+				<div class="item">
+					<a href="" class="yi">
+						<img src="img/home/20180901155222.jpg" class="img-responsive" alt="First slide" />
+					</a>
+					<!--图片的说明-->
+					<div class="carousel-caption">
+						第四张
+					</div>
+				</div>
+				<div class="item">
+					<a href="" class="yi">
+						<img src="img/home/20180901155235.jpg" class="img-responsive" alt="First slide" />
+					</a>
+					<!--图片的说明-->
+					<div class="carousel-caption">
+						第五张
+					</div>
+				</div>
+				<div class="item">
+					<a href="" class="yi">
+						<img src="img/home/20180901155800.jpg" class="img-responsive" alt="First slide" />
+					</a>
+					<!--图片的说明-->
+					<div class="carousel-caption">
+						第六张
+					</div>
+				</div>
+			</div>
+
+			<a class="left carousel-control" href="#a" data-slide="prev" role="button">
+
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+				<!--隐藏了-->
+
+			</a>
+			<a class="right carousel-control" href="#a" data-slide="next" role="button">
+
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+				<!--隐藏了-->
+
+			</a>
+
+		</div>
+		<!--轮播图结束-->
+		<!--身体开始-->
+		<section>
+			<div class="container-fluid diyi m" style="margin-top: 50px;height: 550px;">
+				<div class="container y" style="position: relative;">
+					<div class="col-md-12 y">
+						<div class="col-md-4 col-xs-12 text-center">
+							<p style="font-size: 20px;padding: 25px;">产品中心 PRODUCT CENTER</p>
+						</div>
+						<div class="col-md-8  a col-xs-12" style="padding: 10px;">
+							<a href=""><span></span></a>
+							<a href=""><span class="a"></span></a>
+							<a href=""><span class="b"></span></a>
+							<a href=""><span class="c"></span></a>
+							<a href=""><span class="d"></span></a>
+							<a href=""><span class="e"></span></a>
+						</div>
+					</div>
+					<!--身体的轮播图-->
+					<div class="col-md-12 l">
+						<div class="col-md-12 col-xs-12 x">
+							<div class="col-md-6 y col-xs-12" style="overflow: hidden;text-align: center;">
+								<div style="overflow: hidden;">
+									<a href=""><img src="img/img1.jpg" class="img-responsive" />
+									</a>
+								</div>
+								<div class="wzxa1" style="padding: 50px;0px 50px 0px">高贵明桌</div>
+							</div>
+							<div class="col-md-3 y col-xs-6" style="overflow: hidden;text-align: center;">
+								<div style="overflow: hidden;">
+									<a href=""><img src="img/home/20180704143537.jpg" class="img-responsive" /></a>
+								</div>
+								<div class="wzxa1"style="padding: 50px;0px 50px 0px">老金</div>
+							</div>
+							<div class="col-md-3 y col-xs-6" style="overflow: hidden;text-align: center;">
+								<div style="overflow: hidden;">
+									<a href=""><img src="img/home/20180704143548.jpg" class="img-responsive" /></a>
+								</div>
+								<div class="wzxa1" style="padding: 50px;0px 50px 0px">椅子</div>
+							</div>
+						</div>
+						<!--<div class="col-md-12 col-xs-12 x b">
+                    	<div class="col-md-6 y col-xs-12"style="overflow: hidden;">
+                    		<a href=""><img src="img/home/20180704141426.jpg" class="img-responsive"/></a>
+                    	</div>
+                    	<div class="col-md-3 y col-xs-6"style="overflow: hidden;">
+                    		<a href=""><img src="img/home/20180206093421.jpg"class="img-responsive"/></a>
+                    	</div>
+                    	<div class="col-md-3 y col-xs-6"style="overflow: hidden;">
+                    		<a href=""><img src="img/home/20180206093421.jpg"class="img-responsive"/></a>
+                    	</div>
+                    </div>
+                  </div>-->
+
+					</div>
+				</div>
+				<!--第二个模块-->
+				<div class="container dier m" style="margin-top: 130px;">
+					<div class="col-md-4  e col-xs-12 " style="padding: 0px;">
+						<div class="z col-md-12 col-xs-12" style="padding: 0px;">
+							<div class="img col-md-12 col-xs-12" style="overflow: hidden;cursor: pointer;padding: 0px;">
+								<img src="img/home/20180120115409.jpg" class="img-responsive" style="width: 100%;" />
+							</div>
+							<div style="position: absolute;top: 0px;left: 0px; right: 0px;background: rgb(0,0,0,0.5);padding: 15% 0 15% 10%;color: white;">
+								<p style="font-size: 20px;">创意搭配</p>
+								<p>哇哈哈哈<span style="position: relative;"><img src="img/i4.png"/></span></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8  n" style="padding: 0px;cursor: pointer;height: 100%;">
+						<!--第一个-->
+						<div class="col-md-4 z col-xs-12" style="padding: 0px;height: 100%;">
+							<div class="col-md-12 col-xs-6 w" style="padding: 0px;background: #F6F6F6;text-align:center ;min-height: 239px;">
+								<p style="font-size: 20px;margin-top: 80px;">河南热爱剪辑人</p>
+								<p>激发好看好看发胶呼叫呼叫哈尽快回复</p>
+								<span class="d" style="position: relative;"><img src="img/i5.png"/></span>
+							</div>
+							<div class="col-md-12 col-xs-6 z" style="padding: 0px;">
+								<div class="img" style="overflow: hidden;padding: 0px;">
+									<img src="img/home/20180918120620.jpg" class="img-responsive " style="min-height: 239px;max-height: 19px;" width="100%" />
+								</div>
+							</div>
+						</div>
+						<!--第二个-->
+						<div class="col-md-4 z col-xs-12" style="padding: 0px;overflow:hidden;height: 100%;">
+							<div class="col-md-12 col-xs-6 z" style="padding: 0px;height: 100%;">
+								<div class="img" style="overflow: hidden;padding: 0px;">
+									<img src="img/home/20180120115505.jpg" class="img-responsive " style="height: 239px;" width="100%" />
+								</div>
+							</div>
+							<div class="col-md-12 col-xs-6 w" style="padding: 0px;background: #F6F6F6;text-align:center ;min-height: 239px;">
+								<p style="font-size: 20px;margin-top: 80px;">河南热爱剪辑人</p>
+								<p>激发好看好看发胶呼叫呼叫哈尽快回复</p>
+								<span class="d" style="position: relative;"><img src="img/i5.png"/></span>
+							</div>
+						</div>
+						<!--第三个-->
+						<div class="col-md-4 z col-xs-12" style="padding: 0px;overflow: hidden;height: 100%;">
+							<div class="col-md-12 col-xs-6 w" style="padding: 0px;background: #F6F6F6;text-align:center ;min-height: 239px;">
+								<p style="font-size: 20px;margin-top: 80px;">河南热爱剪辑人</p>
+								<p>激发好看好看发胶呼叫呼叫哈尽快回复</p>
+								<span class="d" style="position: relative;"><img src="img/i5.png"/></span>
+							</div>
+							<div class="col-md-12 col-xs-6 z" style="padding: 0px;">
+								<div class="img" style="overflow: hidden;padding: 0px;">
+									<img src="img/home/20180918120620.jpg" class="img-responsive" style="height: 239px;" width="100%" />
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--第三个模块-->
+				<div class="container-fluid disan col-md-12 col-xs-12 m" style="margin-top: 100px;">
+                      <div class="img col-md-12 col-xs-12" style="overflow: hidden;cursor: pointer;padding: 0px;">
+					     <img src="img/img8.jpg"class="img-responsive"width="100%"style="min-height: 200px;"/>
+					  </div>
+                      <div class="yin" style="position: absolute;top: 0px;left: 0px; right: 0px;padding: 5% 0 5% 0%;color: white;text-align:center ;">
+                      	 <h2 class="col-xs-12 dhwz1">赖氏家具</h2>
+                         <p class="col-xs-12 dhwz"style="font-size: 19px;">山东欧克家具有限公司成立于1999年，其前身为济南赖氏家具制造有限公司，经过十余年 <br />的努力，公司已发展成为集设计、研发、制造、销售于一体的大型专业化...</p>
+                         <p class="more"><a href="">MORE</a></p>
+                      </div>
+				</div>
+				<!--第四个模块-->
+				<div class="container disi ">
+					<p class="col-md-12 col-xs-12" style="font-size: 15px;"><span style="font-size: 30px;">News</span><span><img src="img/navi1.png"/></span> SEE ALL NEWS</p>
+					<div class="col-md-6 col-xs-12">
+						<p class="d"><a href="">江南境——以红木演绎真正高端的时尚新中式生活方式</a></p>
+						<p class="x">OCTOBER2018</p>
+						<p class="xx">「江南境」，以红木演绎出真正高端的时尚新中式生活方式。唤回国民心中深藏已久的院落情怀，低调中尽显大者奢华！</p>
+						<p class="d"><a href="">赖氏家具旗下新品「江南境」惊艳亮相2018上海国际家具展 再现江南大户宅邸风范</a></p>
+						<p class="x">SEPTEMBER2018</p>
+						<p class="xx">9月10日，2018上海国际家具博览会在虹桥国家会展中心隆重开幕，赖氏家具携旗下高端新中式红木家具品牌「江南境」惊艳亮相本次展览，诠释东方美学风雅。</p>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<a href="" style="width: 100%;"><img src="img/img9.jpg"/ class="img-responsive"></a>
+					</div>
+				</div>
+		         <!--第五各模块-->
+		         <div class="container-fluid diwu" style="position: relative;padding-top: 100px;">
+		         	<div class="col-md-12 col-xs-12"style="padding: 0px;width: 100%;">
+		         		<img src="img/011701.jpg"/style="width: 100%;">
+		         	</div>
+		         	<div style="position: absolute;top: 140px;left: 0px; right: 0px;padding: 5% 0 5% 0%;color: white;text-align:center ;">
+                      	 <h2 class="col-xs-12" style="color: white;">离你最近</h2>
+                       </div>
+		         </div>
+		         <!--底部-->
+		         <br /><br /><br />
+		        <div class="container-fluid"style="background: #DBDBDB;padding: 50px 0px 20px 0px;">
+        		  <div class="col-md-6 col-xs-12">
+        		  	<div class="col-md-3 col-md-offset-1 col-xs-4"><img src="img/logo2.png" class="img-responsive"/></div>
+        		  	<div class="col-md-8 col-xs-8">
+        		  		<p>赖氏家具总部 / 中国济南</p>
+        		  		<p>地址：济南市济北经济开发区赖氏家具工业园</p>
+        		  		<p>0531-81177707（咨询专线） 4006-880-666（400售后服务热线）</p>
+        		  	</div>
+        		  </div>
+        		   <div class="col-md-6 col-xs-12">
+        		  	<div class="col-md-10 col-md-offset-1">
+        		  	 	<a href="" style="color: black; " class="col-xs-12">产品中心 丨 创意搭配 丨 品质服务 丨 门店导航 丨 关于我们 丨 新闻资讯</a>
+        		  	    <p style="margin-top: 40px;">版权所有：山东欧克家具有限公司Copyright 2015：鲁ICP备16049971号-1</p>
+        		  </div>
+        	    </div>
+		</section>
+       
+	        
+	</body>
+	<script src="lib/jquery-3.0.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/首页.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

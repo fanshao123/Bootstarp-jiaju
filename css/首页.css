@@ -1,0 +1,159 @@
+*{
+	margin:0px ;
+	padding: 0px;
+}
+body{
+	font-family: Arial,"Microsoft YaHei" !important;
+	/* min-width: 810px;*/
+}
+/*.col-sm-12{
+	padding-left: 0px;
+	padding-right: 0px;
+}*/
+header{
+	margin: 50 auto;
+  /*  border: 1px solid red;*/
+	width: 100%;
+	background: white;
+}
+header>.navbar{
+	   border-bottom: 1px solid #C2BDBA;
+	  box-shadow: 0px 0px 20px #888888;
+	  background: white;
+}
+.nav.navbar-nav>li>a{
+	/*background: white;*/
+	color: #757575;
+}
+.nav.navbar-nav>li>a:hover{
+	color: blue;
+}
+.nav.navbar-nav>li>ul>li>a:hover{
+	color: blue;
+}
+.zitys>li>a:hover{
+	color: #C0CFD6;
+}
+.cx{
+   height: 50px;
+   width: 200px;
+  position: fixed;
+  right: 100px;
+  top: 0px;
+  line-height: 50px;
+  border: 1px solid #D9D9D9;
+  text-align: center;
+ cursor: pointer;
+}
+.cx:hover{
+	border: 1px solid  #255625;
+}
+.cx>a{
+ color: #808080;
+}
+.cx:hover>a>.a{
+	color: black;
+}
+/*header结束*/
+/*身体开始*/
+/*第一个板块*/
+.diyi{
+	background: #F1F1F1;
+}
+.diyi>.y{
+	background: white;
+	margin-top: 50px;
+}
+.diyi>.y>.y>.a>a>span{
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	background: url(../img/navi1.png) repeat scroll top left;
+	margin-left: 30px;
+}
+/*.diyi>.y>.y>.a>a>.a{
+	background: url(../img/navi2.png);
+}*/
+.diyi>.y>.y>.a>a>.a{
+	background: url(../img/navi2-2.png);
+}
+.diyi>.y>.y>.a>a>.b{
+	background: url(../img/navi3.png);
+}
+.diyi>.y>.y>.a>a>.b:hover{
+	background: url(../img/navi3-3.png);
+}
+.diyi>.y>.y>.a>a>.c{
+	background: url(../img/navi4.png);
+}
+.diyi>.y>.y>.a>a>.c:hover{
+	background: url(../img/navi4-4.png);
+}
+.diyi>.y>.y>.a>a>.d{
+	background: url(../img/navi5.png);
+}
+.diyi>.y>.y>.a>a>.d:hover{
+	background: url(../img/navi5-5.png);
+}
+.diyi>.y>.y>.a>a>.e{
+	background: url(../img/navi6.png);
+}
+.diyi>.y>.y>.a>a>.e:hover{
+	background: url(../img/navi6-6.png);
+}
+/*身体第一轮播提*/
+
+/*.diyi>.y>.l{
+	width: 200%;
+}
+.diyi>.y>.l>.x{
+	width: 100%;
+	float: left;
+}*/
+/*.diyi>.y>.b{
+	position: absolute;
+	left: -10px;
+	top: 70px;
+	display: none;
+}*/
+/*身体第二*/
+.disan>div>.more{
+	margin-top: 280px;
+	display: block;
+}
+.disan>div>.more>a{
+	color:white ;
+	font-size: 15px;
+	position: relative;
+	border: 1px solid white;
+	padding: 20px 30px 20px 30px;
+	transition: all 0.5s; 
+}
+.disan>div>.more>a:hover{
+	text-decoration: none;
+	background: #00385B;
+	border: 1px solid #00385B;
+	box-shadow: 0px 0px 20px #00385B ;
+}
+.disi>p{
+	padding: 80px 80px 80px 50px;
+	display: block;
+}
+.disi>div>.d{
+	font-size: 25px;
+	margin-left: 80px;
+}
+.disi>div>.d>a{
+	color: black;
+}
+.disi>div>.x{
+	color: #555555;
+	margin-left: 80px;
+}
+.disi>div>.xx{
+	color: #555555;
+	margin-left: 80px;
+}
+.disi>div>a{
+	
+}
